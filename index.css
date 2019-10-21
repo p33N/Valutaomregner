@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: blue;
+    color: Silver;
+}
+
+nav span {
+    float: left;
+    font-size: 125%;
+    padding: 0.75%;
+    font-weight: bold;
+}
+
+nav div {
+    width: 100%;
+    text-align: right;
+}
+
+nav a {
+    padding: 1%;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    color: Black;
+}
+
+main {
+    margin: 1%;
+}
+
+.calcbox {
+    text-align: center;
+}
+
+#result {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.kursbox table {
+    text-align: center;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+}
+
+.kursbox td, .kursbox th {
+    border: 2.5px solid black;
+    font-weight: bolder;
+    padding: 0.5%;
+}
+
+.kursbox th {
+    font-size: 150%;
+}
